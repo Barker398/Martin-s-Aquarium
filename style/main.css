@@ -1,74 +1,74 @@
 .header {
     display:flex;
-    justify-content: center;
+justify-content: space-evenly;
+border: inset;
+}
+img {
+    width: 185px;
     
 
 }
-body{
+
+.title {
+    display: flex; 
+    justify-content: center;
+}
+
+aside {
+    float:right;
+    width:30%;
+    border-top:solid 5px blue;
+    background-color: turquoise;
+    margin: 4%;
+}
+
+.header--tips {
+    display: flex;
+    justify-content: center;
+}
+
+body {
     background-color: lightseagreen;
 }
 
-
-.fish_Name{
+.fish_Name {
     display: flex;
     justify-content: center;
-  
-}
+  }
 
-.fish{
+.fish {
     border: double;
-    border-style: inset;
+    border-style: outset;
     border-color: royalblue;
-}
-.title {
-display:flex;
-margin: auto;
-border: double;
-border-color: black;
+    margin: 2%;
 }
 
-.logo {
-    width: 180px;
-}
-
-.header_fishes{
+.header_fishes {
     display: flex; 
     justify-content: center;
 }
-
-.title{
-    display: flex; 
-    justify-content: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
+.fishspecies, .fishlength, .fishlocation, .fish_eats{
+    display: flex;
+    justify-content: center;
+}
+.tips {
+    justify-content: center;
+}
+.locations {
+    ;
 
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+}
 
-      .fishspecies, .fishlength, .fishlocation, .fish_eats{
-          display: flex;
-          justify-content: center;
-      }
-
-      aside{
-        float:right;
-        width:30%;
-        border-top:solid 5px #555;
-        background-color:#f6f6f6;
-     
-      }
-
-      .header--tips{
-          display: flex;
-          justify-content: center;
-      }
-
- 
-
+.footer{
+  text-align-last: center;    
+}
     
 
 
