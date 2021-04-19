@@ -2,12 +2,12 @@
     display:flex;
 justify-content: space-evenly;
 border: inset;
+border-color: seashell;
 }
+
 img {
     width: 185px;
-    
-
-}
+    }
 
 .title {
     display: flex; 
@@ -58,12 +58,43 @@ body {
     display: flex;
     justify-content: center;
 }
-.tips {
+
+.info {
+    display: flex;
     justify-content: center;
 }
-.locations {
-    ;
 
+.tip {
+    display: flex;
+    justify-content: center;
+    border: double;
+    border-style: outset;
+    border-color: royalblue;
+    margin: 2%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    border: double;
+    border-style: outset;
+    border-color: royalblue;
+    margin: 2%;
+   }
+
+.places {
+    display: flex;
+    justify-content: center;
+}
+
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    border: double;
+    border-style: outset;
+    border-color: royalblue;
+    margin: 2%;
 }
 
 .footer{
